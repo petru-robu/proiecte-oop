@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
+#include "include/pat."
+
 
 int main()
 {
-    std::cout<<"Test";
+    Patiserie pastery;
     return 0;
 }
