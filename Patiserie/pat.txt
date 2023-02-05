@@ -1,0 +1,6 @@
+Aplicatie pentru gestiunea costurilor produselor la
+o patiserie unde se produc diferite produse, pentru
+care se consuma diferite materiale (cod material,
+denumire, preț unitar, cantitate). Aplicația permite
+calculul pretului de cost pentru fiecare produs,
+determinarea produsului cu costul cel mai mare, respectiv cel mai mic.
