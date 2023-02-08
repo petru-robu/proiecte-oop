@@ -1,5 +1,5 @@
-#ifndef MATERIAL_H
-#define MATERIAL_H
+#ifndef INCLUDED_MATERIAL
+#define INCLUDED_MATERIAL
 #include <bits/stdc++.h>
 
 class Material
@@ -25,7 +25,7 @@ std::string get_name();
 int get_price();
 int get_quantity();
 
-void print_mat();
+void print();
 
 };
 

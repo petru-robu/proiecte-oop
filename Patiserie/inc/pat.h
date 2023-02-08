@@ -1,30 +1,21 @@
-#ifndef PAT_H
-#define PAT_H
+#ifndef INCLUDED_PAT
+#define INCLUDED_PAT
 #include <bits/stdc++.h>
-#include "material.h"
 #include "product.h"
 
 
 class Patiserie
 {
 private:
-std::vector<Material> MaterialList;
-std::vector<Product> ProductList;
+std::vector<Product> Products;
 
 public:
-void add_material(Material M);
-void add_product(Product P);
+Product get_minCost();
+Product get_maxCost();
 
-void update_products(int codProdus);
-void update_materials(int codMaterial);
+void addProduct(Product p);
 
-void get_cost(int codProdus);
-void get_minCost();
-void get_maxCost();
-
-
-
-
+void print();
 };
 
 
