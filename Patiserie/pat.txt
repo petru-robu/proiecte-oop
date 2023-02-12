@@ -4,3 +4,19 @@ care se consuma diferite materiale (cod material,
 denumire, preț unitar, cantitate). Aplicația permite
 calculul pretului de cost pentru fiecare produs,
 determinarea produsului cu costul cel mai mare, respectiv cel mai mic.
+
+io
+data
+locatie
+patiserie:franciza
+meniu interactive singleton
+
+checker template
+
+1123
+Oua
+15
+76
+26
+4
+2006

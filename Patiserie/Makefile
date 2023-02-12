@@ -15,7 +15,7 @@ all: $(sources)
 	g++ $(flags_all) $(INC_PARAMS) $(SCR_PARAMS) -o $(PROGRAM_NAME).out
 
 clean:
-	rm $(PROGRAM_NAME).out
+	del $(PROGRAM_NAME).out
 
 run: $(sources)
 	g++ $(flags_fast) $(INC_PARAMS) $(SCR_PARAMS) -o $(PROGRAM_NAME).out
