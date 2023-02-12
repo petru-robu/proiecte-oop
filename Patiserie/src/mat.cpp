@@ -1,7 +1,7 @@
 #include "../inc/mat.h"
 
 Material::Material(){}
-Material::Material(int code = 0, std::string name = "", int price = 0, int quantity=0, Date expiration = Date())
+Material::Material(int code = 0, std::string name = "", float price = 0, int quantity=0, Date expiration = Date())
 : Material_blueprint(code, name, price), quantity(quantity), expiration(expiration) {}
 
 void Material::set_quantity(int q) {quantity = q;}

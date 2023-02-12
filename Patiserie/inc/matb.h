@@ -7,19 +7,19 @@ class Material_blueprint
 protected:
     int code;
     std::string name;
-    int price;
+    float price;
 
 public:
     Material_blueprint();
-    Material_blueprint(int code, std::string name, int price);
+    Material_blueprint(int code, std::string name, float price);
 
     int get_code();
     std::string get_name();
-    int get_price();
+    float get_price();
 
     void set_code(int c);
     void set_name(std::string n);
-    void set_price(int p);
+    void set_price(float p);
 
     virtual void read();
     virtual void print();

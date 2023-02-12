@@ -12,7 +12,7 @@ private:
 
 public: 
     Material();
-    Material(int code, std::string name, int price, int quantity, Date expiration);
+    Material(int code, std::string name, float price, int quantity, Date expiration);
 
     void set_quantity(int q);
     void set_expiration(Date d);
