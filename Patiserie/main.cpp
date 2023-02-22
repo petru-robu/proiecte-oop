@@ -1,17 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#include "inc/util.h"
-#include "inc/mat.h"
-#include "inc/prodb.h"
+#include "inc/util/date.h"
+#include "inc/core/material/mat.h"
+#include "inc/core/product/prodb.h"
+#include "inc/core/storage/storage.h"
 
 int main()
 {   
-    Product_blueprint P;
-    cin>>P;
-    
-    cout<<P;
-    
+    Storage s;
+    cin>>s;
+    cout<<s;
      
     return 0;
 }

@@ -13,10 +13,30 @@ meniu interactive singleton
 
 checker template
 
-1123
+tort_ciocolata
+5555555
+2
+
+1212
+lapte
+14
+3
+
+1213
+oua
+12
+5
+
+
+To do:
+clasa comparator
+clasa meniu : l_produseBlueprint
+clasa inventar : l_produse, l_mat
+clasa patiserie : meniu + inventar <produce, etc>
+
+112
+Ou 
+2.5
+112
 Oua
-15
-76
-26
-4
-2006
+2.8
